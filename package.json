@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "sku start",
+    "test": "sku test",
+    "build": "sku build",
+    "serve": "sku serve",
+    "lint": "sku lint",
+    "format": "sku format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sku pre-commit"
+    }
+  },
+  "dependencies": {
+    "@seek/apac-candidate-header-footer": "^3.1.0",
+    "braid-design-system": "31.13.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "sku": "11.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@vanilla-extract/css": "^1.7.2",
+    "husky": "^8.0.1"
+  }
+}
